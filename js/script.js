@@ -36,6 +36,12 @@ $(document).ready(function() {
     if (ans5 === "B"){
       score += 10;
     }
+    else{
+        score += 0;
+    }
+    if (ans6 === "C"){
+      score += 10;
+    }
     
     });
 });
