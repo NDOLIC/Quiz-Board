@@ -7,5 +7,6 @@ $(document).ready(function() {
       var ans5 = $("input[name='Quest5']:checked").val();
       var ans6 = $("input[name='Quest6']:checked").val();
       var ans7 = $("input[name='Quest7']:checked").val();
+      var answers = ["A","B","A","B","B","C","C"],
     });
 });
