@@ -27,6 +27,9 @@ $(document).ready(function() {
       else{
           score += 0;
       }
+      if (ans4 === "B"){
+        score += 10;
+      }
       
     });
 });
