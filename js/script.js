@@ -21,6 +21,12 @@ $(document).ready(function() {
       else{
           score += 0;
       }
+      if (ans3 === "B"){
+        score += 10;
+      }
+      else{
+          score += 0;
+      }
       
     });
 });
