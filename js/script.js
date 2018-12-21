@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#controls form").submit(function(event) {
+    $("input[type='button']").click(function(event) {
       var ans1 = $("input[name='Quest1']:checked").val();
       var ans2 = $("input[name='Quest2']:checked").val();
       var ans3 = $("input[name='Quest3']:checked").val();
@@ -7,6 +7,14 @@ $(document).ready(function() {
       var ans5 = $("input[name='Quest5']:checked").val();
       var ans6 = $("input[name='Quest6']:checked").val();
       var ans7 = $("input[name='Quest7']:checked").val();
-      var answers = ["A","B","A","B","B","C","C"],
+    //   var answers = ["A","B","A","B","B","C","C"],
+      var score = 0;
+      if (ans1 === "A"){
+      score += 10;
+    }
+    else{
+        score += score;
+    }
+    
     });
 });
