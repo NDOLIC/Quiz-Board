@@ -13,8 +13,14 @@ $(document).ready(function() {
       score += 10;
     }
     else{
-        score += score;
+        score += 0;
     }
-    
+    if (ans2 === "A"){
+        score += 10;
+      }
+      else{
+          score += 0;
+      }
+      
     });
 });
