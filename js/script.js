@@ -51,7 +51,7 @@ $(document).ready(function() {
     else{
         score += 0;
     }
-
+    $("#result").text("You have scored "+score+" out of 70");
 
     });
 });
