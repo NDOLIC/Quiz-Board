@@ -42,6 +42,16 @@ $(document).ready(function() {
     if (ans6 === "C"){
       score += 10;
     }
-    
+    else{
+        score += 0;
+    }
+    if (ans7 === "C"){
+      score += 10;
+    }
+    else{
+        score += 0;
+    }
+
+
     });
 });
