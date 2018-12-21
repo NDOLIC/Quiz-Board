@@ -30,6 +30,12 @@ $(document).ready(function() {
       if (ans4 === "B"){
         score += 10;
       }
-      
+      else{
+        score += 0;
+    }
+    if (ans5 === "B"){
+      score += 10;
+    }
+    
     });
 });
