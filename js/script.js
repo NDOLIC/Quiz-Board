@@ -9,48 +9,62 @@ $(document).ready(function() {
       var ans7 = $("input[name='Quest7']:checked").val();
     //   var answers = ["A","B","A","B","B","C","C"],
       var score = 0;
-      if (ans1 === "A"){
+      if (ans1 === "A")
+      {
       score += 10;
-    }
-    else{
+      }
+        else 
+        {
         score += 0;
-    }
-    if (ans2 === "A"){
+        }
+      if (ans2 === "A")
+      {
         score += 10;
       }
-      else{
+        else
+        {
+        score += 0;
+        }
+      if (ans3 === "B")
+      {
+      score += 10;
+      }
+        else
+        {
           score += 0;
-      }
-      if (ans3 === "B"){
-        score += 10;
-      }
-      else{
-          score += 0;
-      }
-      if (ans4 === "B"){
-        score += 10;
-      }
-      else{
-        score += 0;
-    }
-    if (ans5 === "B"){
+         }
+      if (ans4 === "B")
+      {
       score += 10;
-    }
-    else{
-        score += 0;
-    }
-    if (ans6 === "C"){
+      }
+       else
+       {
+       score += 0;
+       }
+      if (ans5 === "B")
+      {
       score += 10;
-    }
-    else{
+      }
+       else
+        {
         score += 0;
-    }
-    if (ans7 === "C"){
+        }
+      if (ans6 === "C")
+      {
       score += 10;
-    }
-    else{
+      }
+        else
+        {
         score += 0;
-    }
+        }
+      if (ans7 === "C")
+      {
+      score += 10;
+      }
+      else
+      {
+        score += 0;
+      }
     $("#result").text("You have scored "+score+" out of 70");
 
     });
