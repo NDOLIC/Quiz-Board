@@ -1,6 +1,35 @@
-body{
-font-family: Verdana,sans-serif;
-font-size: 15px;
-line-height: 1.5;
-text-align: center;
+html, body {
+    background: url(light_wool.png) #000;
+    color: white;
+    height: 100%;
+    font-family: Arial, Helvetica, 'Helvetica Neue', Verdana, sans-serif;
+}
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.5;
+}
+.container h1 {
+    font-size: 80px
+}
+.container {
+    margin: 0 auto;
+    padding-bottom: 80px;
+    width: 100%;
+}
+#result{
+    padding-top: 20px;
+}
+#question1{
+    margin-bottom: 0.9px;
+    margin-top: 0.9px;
 }
