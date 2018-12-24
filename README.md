@@ -8,7 +8,9 @@ all the questions are not opened questions
 ### Prerequisites
 you need a web browsers to install vs code
 to access to this project you need have a web browser in your PC
+access to this link on github
 
+https://github.com/NDOLIC/Quiz-Board.git
 ### Versioning
 I use jquery version 3.7.
 
